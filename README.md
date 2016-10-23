@@ -1,2 +1,3 @@
-# till-python-demo
-Till demo in Python
+# Example in Python
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TillMobile/till-python-example)
