@@ -1,0 +1,21 @@
+{
+  "name": "Till Example",
+  "description": "",
+  "success_url": "/",
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Free"
+    } 
+  },
+  "image": "heroku/python",
+  "addons": [
+    {
+      "plan": "till"
+    },
+    {
+      "plan": "pusher"
+    }
+  ]
+}
