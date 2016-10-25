@@ -87,7 +87,7 @@
                 var channel = pusher.subscribe(uuid);
                 channel.bind("result", function(data) {
                     try {
-                        switch(parseInt(data["answer"])) {
+                        switch(parseInt(data["numeric_response"])) {
                             case 1:
                                 chart_data["datasets"][0]["data"][0]++;
                                 break;
