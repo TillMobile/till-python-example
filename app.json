@@ -12,7 +12,7 @@
   "image": "heroku/python",
   "addons": [
     {
-      "plan": "till"
+      "plan": "till:test"
     },
     {
       "plan": "pusher"
